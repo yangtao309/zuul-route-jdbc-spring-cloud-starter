@@ -2,9 +2,6 @@
 > A Spring Cloud jdbc store for Zuul routes.
 将zuul的routes信息存储在关系型数据库中，以方便定义zuul dashboard进行运维管理工作。
 
-## reference
-[zuul-route-cassandra-spring-cloud-starter](https://github.com/jmnarloch/zuul-route-cassandra-spring-cloud-starter)
-
 ## Features
 
 Extends the Spring Cloud's `DiscoveryClientRouteLocator` with capabilities of loading routes out of the configured Cassandra database.
@@ -47,7 +44,7 @@ Add the Spring Cloud starter to your project:
 <dependency>
   <groupId>com.white.oka</groupId>
   <artifactId>zuul-route-jdbc-spring-cloud-starter</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>1.0-SNAPSHOT</version>
 </dependency>
 ```
 
