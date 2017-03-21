@@ -9,7 +9,7 @@ plugins {
     id 'net.researchgate.release' version '2.1.2'
 }
 
-group 'com.white.oka'
+group 'io.github.yangtao309'
 version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'

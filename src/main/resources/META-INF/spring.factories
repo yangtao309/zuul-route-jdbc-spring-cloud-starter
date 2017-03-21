@@ -1,2 +1,2 @@
 org.springframework.boot.autoconfigure.EnableAutoConfiguration=\
-com.white.oka.spring.cloud.zuul.support.JdbcZuulStoreAutoConfiguration
+io.github.yangtao309.spring.cloud.zuul.support.JdbcZuulStoreAutoConfiguration

@@ -42,7 +42,7 @@ Add the Spring Cloud starter to your project:
 
 ```xml
 <dependency>
-  <groupId>com.white.oka</groupId>
+  <groupId>io.github.yangtao309</groupId>
   <artifactId>zuul-route-jdbc-spring-cloud-starter</artifactId>
   <version>1.0.0-SNAPSHOT</version>
 </dependency>

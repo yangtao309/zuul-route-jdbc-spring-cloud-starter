@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.white.oka.spring.cloud.zuul.support;
+package io.github.yangtao309.spring.cloud.zuul.support;
 
-import com.white.oka.spring.cloud.zuul.store.JdbcZuulRouteStore;
-import com.white.oka.spring.cloud.zuul.store.ZuulRouteStore;
+import io.github.yangtao309.spring.cloud.zuul.store.JdbcZuulRouteStore;
+import io.github.yangtao309.spring.cloud.zuul.store.ZuulRouteStore;
 
 import org.springframework.boot.autoconfigure.condition.ConditionalOnMissingBean;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package com.white.oka.spring.cloud.zuul.support;
+package io.github.yangtao309.spring.cloud.zuul.support;
 
-import com.white.oka.spring.cloud.zuul.route.StoreRefreshableRouteLocator;
-import com.white.oka.spring.cloud.zuul.store.ZuulRouteStore;
+import io.github.yangtao309.spring.cloud.zuul.route.StoreRefreshableRouteLocator;
+import io.github.yangtao309.spring.cloud.zuul.store.ZuulRouteStore;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.web.ServerProperties;

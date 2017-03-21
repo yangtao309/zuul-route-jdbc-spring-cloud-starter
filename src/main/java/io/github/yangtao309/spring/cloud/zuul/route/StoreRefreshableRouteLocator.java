@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.white.oka.spring.cloud.zuul.route;
+package io.github.yangtao309.spring.cloud.zuul.route;
 
-import com.white.oka.spring.cloud.zuul.store.ZuulRouteStore;
+import io.github.yangtao309.spring.cloud.zuul.store.ZuulRouteStore;
 
 import org.springframework.cloud.client.discovery.DiscoveryClient;
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;

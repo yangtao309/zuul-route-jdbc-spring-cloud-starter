@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.white.oka.spring.cloud.zuul.store;
+package io.github.yangtao309.spring.cloud.zuul.store;
 
 import org.springframework.cloud.netflix.zuul.filters.ZuulProperties;
 

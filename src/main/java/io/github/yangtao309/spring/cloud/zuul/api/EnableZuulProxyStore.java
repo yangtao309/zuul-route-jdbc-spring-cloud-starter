@@ -14,9 +14,9 @@
  * limitations under the License.
  */
 
-package com.white.oka.spring.cloud.zuul.api;
+package io.github.yangtao309.spring.cloud.zuul.api;
 
-import com.white.oka.spring.cloud.zuul.support.ZuulProxyStoreConfiguration;
+import io.github.yangtao309.spring.cloud.zuul.support.ZuulProxyStoreConfiguration;
 
 import org.springframework.cloud.client.circuitbreaker.EnableCircuitBreaker;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
@@ -27,9 +27,11 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
+import io.github.yangtao309.spring.cloud.zuul.store.ZuulRouteStore;
+
 /**
  * Enables the Zuul Proxy with list of routes being provided from configured
- * {@link com.white.oka.spring.cloud.zuul.store.ZuulRouteStore} instance, besides that this pretty much resembles the
+ * {@link ZuulRouteStore} instance, besides that this pretty much resembles the
  * standard {@link org.springframework.cloud.netflix.zuul.EnableZuulProxy}.
  *
  * @author Jakub Narloch
