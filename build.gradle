@@ -1,0 +1,26 @@
+group 'com.white.oka'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'maven-publish'
+
+sourceCompatibility = '1.8'
+targetCompatibility = '1.8'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.springframework.cloud:spring-cloud-starter-zuul:1.2.6.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.1.9.RELEASE'
+
+    compile 'mysql:mysql-connector-java:5.1.30'
+
+    testCompile 'org.springframework:spring-test:4.1.9.RELEASE'
+    testCompile 'org.springframework.boot:spring-boot-test:1.4.3.RELEASE'
+    testCompile 'org.apache.httpcomponents:httpclient:4.3.5'
+    testCompile 'org.mockito:mockito-all:1.10.19'
+    testCompile 'junit:junit:4.11'
+}
