@@ -1,22 +1,45 @@
+buildscript {
+    repositories {
+        jcenter()
+    }
+}
+
+plugins {
+    id "com.github.hierynomus.license" version "0.11.0"
+    id 'net.researchgate.release' version '2.1.2'
+}
+
 group 'com.white.oka'
-version '1.0-SNAPSHOT'
+version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'idea'
 apply plugin: 'maven-publish'
 
+apply from: 'gradle/license.gradle'
+apply from: 'gradle/release.gradle'
+
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
 
+ext {
+    isReleaseVersion = !version.endsWith("SNAPSHOT")
+}
+
+jar {
+    manifest {
+        attributes 'Implementation-Title': 'zuul-route-jdbc-spring-cloud-starter',
+            'Implementation-Version': version
+    }
+}
+
 repositories {
-    mavenCentral()
+    jcenter()
 }
 
 dependencies {
     compile 'org.springframework.cloud:spring-cloud-starter-zuul:1.2.6.RELEASE'
     compile 'org.springframework:spring-jdbc:4.1.9.RELEASE'
-
-    compile 'mysql:mysql-connector-java:5.1.30'
 
     testCompile 'org.springframework:spring-test:4.1.9.RELEASE'
     testCompile 'org.springframework.boot:spring-boot-test:1.4.3.RELEASE'
