@@ -51,7 +51,7 @@ Add the Spring Cloud starter to your project:
 </dependency>
 ```
 
-Connect to Cassandra and create a keyspace:
+Connect to mysql and create a keyspace:
 
 ```sql(mysql)
 
@@ -67,7 +67,7 @@ CREATE TABLE zuul_routes(
 );
 ```
 
-Register `CassandraOperations` bean within your application:
+Register `JdbcOperations` bean within your application:
 
 ```java
 @SpringBootApplication
@@ -95,7 +95,7 @@ public static class Application {
 }
 ```
 
-Configure the Cassandra to be used for loading the Zuul routes:
+Configure the jdbc to be used for loading the Zuul routes:
 
 ```yaml
 zuul:
