@@ -37,7 +37,7 @@ uploadArchives {
       pom.project {
         name 'zuul-route-jdbc-spring-cloud-starter'
         packaging 'jar'
-        description 'Spring Cloud Netflix Zuul Cassandra Store'
+        description 'Spring Cloud Netflix Zuul Jdbc Store'
         url 'https://github.com/yangtao309/zuul-route-jdbc-spring-cloud-starter'
 
         scm {
