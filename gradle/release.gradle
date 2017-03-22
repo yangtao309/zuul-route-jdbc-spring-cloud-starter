@@ -55,9 +55,9 @@ uploadArchives {
 
         developers {
           developer {
-            id 'jmnarloch'
-            name 'Jakub Narloch'
-            email 'jmnarloch@gmail.com'
+            id 'whilteoka'
+            name 'White oka'
+            email 'yangtao309@gmail.com'
           }
         }
       }
