@@ -10,7 +10,7 @@ plugins {
 }
 
 group 'io.github.yangtao309'
-version '1.0.0'
+version '1.0.0-SNAPSHOT'
 
 apply plugin: 'java'
 apply plugin: 'idea'

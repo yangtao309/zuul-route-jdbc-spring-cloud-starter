@@ -7,7 +7,7 @@
     <artifactId>zuul-route-jdbc-spring-cloud-starter</artifactId>
     <packaging>jar</packaging>
     <url>https://github.com/yangtao309/zuul-route-jdbc-spring-cloud-starter</url>
-    <version>1.0.0</version>
+    <version>1.0.0.SNAPSHOT</version>
 
     <licenses>
         <license>
