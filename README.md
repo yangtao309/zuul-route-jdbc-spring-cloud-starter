@@ -53,7 +53,7 @@ Connect to mysql and create a keyspace:
 ```sql(mysql)
 
 CREATE TABLE zuul_routes(
-    id INT AUTO_INCREMENT,
+    id VARCHAR(50),
     path VARCHAR(500),
     service_id VARCHAR(50),
     url VARCHAR(500),
